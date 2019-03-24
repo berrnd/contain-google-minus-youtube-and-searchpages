@@ -1,10 +1,11 @@
-# Google Container Minus YouTube
+# Google Container Minus YouTube & Search Pages
 
 **Prevent Google from tracking your visits to other websites**
 
 This is a fork of [Google Container](https://github.com/containers-everywhere/contain-google)
+In fact a fork of the [Google Container Minus YouTube](https://github.com/yoasif/contain-google-minus-youtube) fork
 
-Google Container Minus YouTube is an add-on you can install on Firefox to prevent Google from tracking your activity on other websites, so you can continue to use Google while protecting your privacy. It specifically doesn't contain YouTube so that you can be logged into Google without being logged into YouTube. 
+Google Container Minus YouTube & Search Pages is an add-on you can install on Firefox to prevent Google from tracking your activity on other websites, so you can continue to use Google while protecting your privacy. It specifically doesn't contain YouTube so that you can be logged into Google without being logged into YouTube. Additionally, this ignores search pages (includes maps and flight search) so that you can search without being logged into Google.
 
 **Note:** To learn more about Containers in general, see [Firefox Multi-Account Containers](https://support.mozilla.org/kb/containers).
 

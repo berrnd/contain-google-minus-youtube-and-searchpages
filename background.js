@@ -1,6 +1,6 @@
 // Param values from https://developer.mozilla.org/Add-ons/WebExtensions/API/contextualIdentities/create
 const GOOGLE_CONTAINER_NAME = "Google";
-const GOOGLE_CONTAINER_COLOR = "red";
+const GOOGLE_CONTAINER_COLOR = "yellow";
 const GOOGLE_CONTAINER_ICON = "briefcase";
 let GOOGLE_DOMAINS = [
   "google.com", "google.org", "googleapis.com", "g.co", "ggpht.com",
@@ -224,7 +224,7 @@ function reopenTab ({url, tab, cookieStoreId}) {
 function isGoogleURL (url) {
   const parsedUrl = new URL(url);
   for (let googleHostRE of googleHostREs) {
-    if (googleHostRE.test(parsedUrl.host)) {
+    if (googleHostRE.test(parsedUrl.host) && parsedUrl.pathname !== "/search" && parsedUrl.pathname !== "/maps" && parsedUrl.pathname !== "/flights") {
       return true;
     }
   }
