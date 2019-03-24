@@ -3,6 +3,7 @@
 **Prevent Google from tracking your visits to other websites**
 
 This is a fork of [Google Container](https://github.com/containers-everywhere/contain-google)
+
 In fact a fork of the [Google Container Minus YouTube](https://github.com/yoasif/contain-google-minus-youtube) fork
 
 > Install directly from AMO: https://addons.mozilla.org/de/firefox/addon/google-container-minus-yt-srch
